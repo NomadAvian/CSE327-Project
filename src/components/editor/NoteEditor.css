@@ -1,0 +1,28 @@
+.note-editor {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.note-editor__label {
+  color: #52615a;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.note-editor__input {
+  overflow: hidden;
+  border: 1px solid #dce3df;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.note-editor__input .cm-editor {
+  min-height: 320px;
+  font-size: 0.95rem;
+}
+
+.note-editor__input .cm-scroller {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  line-height: 1.6;
+}

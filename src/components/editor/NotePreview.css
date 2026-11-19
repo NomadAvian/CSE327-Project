@@ -1,0 +1,31 @@
+.note-preview {
+  min-width: 0;
+  color: #18221f;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.note-preview > :first-child {
+  margin-top: 0;
+}
+
+.note-preview > :last-child {
+  margin-bottom: 0;
+}
+
+.note-preview pre,
+.note-preview--plain {
+  overflow: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: #eef2ef;
+  white-space: pre-wrap;
+}
+
+.note-preview code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.note-preview img {
+  max-width: 100%;
+}

@@ -1,0 +1,26 @@
+.note-editor-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.note-editor-workspace__preview {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid #dce3df;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.note-editor-workspace__preview h2 {
+  margin: 0 0 16px;
+  color: #52615a;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 800px) {
+  .note-editor-workspace {
+    grid-template-columns: 1fr;
+  }
+}
